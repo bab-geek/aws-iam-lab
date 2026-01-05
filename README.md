@@ -1,12 +1,10 @@
+AWS IAM Foundations: Managing Users, Groups, and Permissions
 
-
-#AWS IAM Foundations: Managing Users, Groups, and Permissions
-
-📌 Project Overview
+Project Overview
 
 This project demonstrates the implementation of AWS Identity and Access Management (IAM) to secure an AWS environment. By moving away from using the Root user for daily tasks, this lab focuses on creating a secure, scalable hierarchy of users and groups with granular permissions.
 
-🎯 Lab Objectives
+Lab Objectives
 
 By completing this project, I successfully achieved the following:
 
@@ -16,7 +14,7 @@ Real-World Scenario: Followed a hands-on scenario to add users to specific group
 Access Management: Located and utilized the unique IAM sign-in URL for delegated access.
 Service Validation:Experimented with various policies to confirm service-level access (e.g., S3, EC2).
 
- 🛠 Solution & Approach
+ Solution & Approach
 
 To fulfill the project requirements, I followed a structured administrative workflow:
 
@@ -25,7 +23,7 @@ To fulfill the project requirements, I followed a structured administrative work
 3. User Provisioning: Created IAM users and assigned them to their respective groups, ensuring they inherited the correct permissions.
 4. Testing & Verification:Logged in via the IAM-specific Sign-in URL to verify that users could only access the services permitted by their group policy.
 
-⚙️ Key Configurations
+Key Configurations
 
 IAM Policy Example (Least Privilege)
 
@@ -47,11 +45,12 @@ Below is an example of a JSON policy used during the lab to grant read-only acce
 }
 
 ```
+Project Documentation (Screenshots)
 
- 📸 Project Documentation (Screenshots)
+<img width="1900" height="865" alt="Screenshot 2026-01-05 094344" src="https://github.com/user-attachments/assets/a8bd5dfc-59de-4176-a8e6-289adcbf1396" />
 
 
-
+<img width="1899" height="754" alt="Screenshot 2026-01-05 094115" src="https://github.com/user-attachments/assets/db792a74-6cab-4224-a898-7bf4e5f7e5f4" />
 
 
 🔗 Relevant AWS Documentation
